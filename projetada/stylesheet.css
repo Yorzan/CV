@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+a:link {
+    color:blue;
+    text-decoration: none;
+}
+/* Quando passa o mouse por cima do link */
+a:hover {
+    color: red;
+    text-decoration: none;
+        
+}
+/* Quando já visitou o link */
+a:visited {
+    color: purple;
+    text-decoration: none;
+}
+/* Link ativo/selecionado */
+a:active {
+    color: white;
+    text-decoration: none;
+}
+body {
+    background: url('./image/fundinho.jpg') no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: justify;
+    font-family: verdana;
+}   
+p.paragrafo_principal {
+    font-family: 'Audiowide', cursive;;
+    font-size: 24px;
+    text-align: justify;
+    padding: 20px;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 20px;
+}
+div.container{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 40px;
+    box-sizing: border-box;
+}
+div.conteudo{
+    width: 100%;
+    background-color: rgb(255, 255, 255, 0.7);
+    margin: 0 15px;
+    text-align: center;
+    border-radius: 20px;
+    font-family:  'Audiowide', cursive;;
+}
+div.formacao{
+        width: 100%;
+        background-color: rgb(255, 255, 255, 0.7);
+        margin-top: 100%;
+        margin: 0;
+        text-align: center;
+        border-radius: 20px;
+        font-family:  'Audiowide', cursive;
+        font-size: 18px;
+    }
+div.logo {
+    font-family: 'Luckiest Guy', cursive;
+    color: rgba(42, 180, 72);
+    text-shadow: 3px 2px 1px rgba(255, 255, 255, 0.3);
+    text-align:center;
+    width: 100%;
+    font-size: 46px;
+}   
+div.logo a{
+    text-decoration: none;
+    color: rgba(42, 180, 72);
+}
+div.contato{
+    width: 100%;
+        background-color: rgb(255, 255, 255, 0.7);
+        text-align: center;
+        border-radius: 20px;
+        font-family:  'Audiowide', cursive;
+        font-size: 18px;
+
+}
